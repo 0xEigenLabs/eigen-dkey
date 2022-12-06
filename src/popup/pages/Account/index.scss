@@ -1,0 +1,47 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    .desc {
+        font-size: 28px;
+        display: block;
+        margin-top: 20px;
+    }
+}
+.content {
+    .back {
+        height: 45px;
+        // box-shadow: 10px 0 5px grey;
+        border: 1px solid red;
+    }
+    .detail {
+        .myAccount {
+            margin-left: 15px;
+        }
+        .accountDetail {
+            margin-top: 40px;
+            .iconArea {
+
+            }
+            .detailArea {
+                margin-left: 80px;
+                .title {
+                    display: block;
+                }
+                .mail {
+                    display: block;
+                }
+            }
+        }
+        .adressArea {
+            margin-top: 10px;
+            margin-left: 80px;
+        }
+    }
+}
+.footer {
+    text-align: center;
+    margin-top: 180px;
+    .btn {
+        width: 200px;
+    }
+}

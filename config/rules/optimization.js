@@ -2,7 +2,7 @@ module.exports = {
     runtimeChunk: {
         name: 'manifest'
     },
-    splitChunks: {
+    splitChunks: {    
         cacheGroups: {
             default: false,
             commons: {
@@ -10,6 +10,12 @@ module.exports = {
                 name: 'vendor',
                 chunks: 'all'
             }
-        }
+        },
+        // test: /.js$/,
+        name: 'common-chunk',
+        chunks: 'initial',
+        // priority: 1,
+        // minChunks: 2
     }
+    
 }
